@@ -27,7 +27,7 @@ body
   margin-right: 2%;
   margin-top: 25px;
   font-size: 25px;
-  height: 500px;
+  min-height: 500px;
 }
 
 #title1
