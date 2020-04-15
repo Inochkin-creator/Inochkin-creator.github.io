@@ -1,0 +1,18 @@
+#main
+{
+  font-size: 100px;
+  color: red;
+  text-align: center;
+}
+
+body
+{
+  background-color: purple;
+}
+
+#nac
+{
+  font-size: 10px;
+  margin-top: -630px;
+  margin-left: 660px;
+}
