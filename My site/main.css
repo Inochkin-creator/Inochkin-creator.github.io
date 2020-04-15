@@ -27,12 +27,12 @@ body
   margin-right: 2%;
   margin-top: 25px;
   font-size: 25px;
+  height: 500px;
 }
 
 #title1
 {
   margin-left: 25px;
-  margin-top: 80px;
   font-size: 35px;
   font-weight: 750;
   color: #515295;
