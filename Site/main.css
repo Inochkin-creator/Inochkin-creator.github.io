@@ -49,8 +49,7 @@
   color: #1A90E1;
   font-size: 24px;
 }
-
-
+	
 
 /*--------------------- 
 --------SIDEBAR--------
@@ -162,6 +161,20 @@
 /*--------------------- 
 -----FLOAT-FIXING------
 ---------------------*/
+
+@media (max-width: 401px)
+{
+  .content
+  {
+    font-size: 12.5px;
+	line-height: 28px;
+  }
+  
+  .solve
+  {
+	line-height: 16px;
+  }
+}
 
 .fix:after {
   visibility: hidden;
