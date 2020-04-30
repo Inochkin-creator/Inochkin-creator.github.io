@@ -166,7 +166,8 @@
 {
   .content
   {
-    font-size: 12.5px;
+	letter-spacing: 1px;
+    font-size: 14px;
 	line-height: 28px;
   }
   
