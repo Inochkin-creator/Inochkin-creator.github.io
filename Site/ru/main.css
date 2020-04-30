@@ -1,0 +1,190 @@
+/*--------------------- 
+--------HEADER---------
+---------------------*/
+
+.header
+{
+  background-image: url(img/header.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+  width: 100%;
+  height: 40%;
+  max-height: 333px;
+}
+
+
+
+/*--------------------- 
+--------CENTER---------
+---------------------*/
+
+.center
+{
+  background-image: linear-gradient(-45deg, #340F3A, #8730C6, #A044D2, #430857 10%, #020001);
+}
+
+
+
+/*--------------------- 
+--------CONTENT--------
+---------------------*/
+
+.content
+{
+  float: left;
+  
+  width: 60%;
+  background-color: white;
+  
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-bottom: 40px;
+  
+  box-sizing: border-box;
+  padding: 35px;
+  
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #1A90E1;
+  font-size: 24px;
+}
+	
+
+/*--------------------- 
+--------SIDEBAR--------
+---------------------*/
+
+.sidebar
+{
+  float: left;
+  box-sizing: border-box;
+   
+  background-color: #68AFB9;
+  width: 15%;
+  min-height: 500px;
+  
+  margin-left: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 5%;
+  
+  font-size: 25px;
+  text-align: center;
+  
+  padding: 10px;
+}
+
+.plusing
+{
+  margin: 20px;
+  margin-top: 10px;
+  
+  font-size: 15px;
+}
+
+.plus
+{
+  margin-top: 5px;
+  max-width: 90%;
+}
+
+.button
+{
+  margin: 10px;
+}
+
+@media (max-width: 1400px) 
+{
+  .sidebar 
+  {
+    width: 23%;
+	margin-left: 5%;
+	margin-right: 0px;
+	background-color: #68AFB9;
+  }
+}
+
+@media (max-width: 920px) 
+{
+  .sidebar 
+  {
+    width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #68AFB9;
+  }
+  
+  .content
+  {
+	width: 90%; 
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 19px;
+  }
+}
+
+
+
+/*--------------------- 
+--------FOOTER---------
+---------------------*/
+
+.footer
+{
+  width: 100%;
+  min-height: 100px;
+  background-color: #4D4E4E;
+  font-size: 26px;
+}
+
+.mail
+{
+  float: right;
+  width: auto;
+  border: 0.5px solid black;
+  text-align: right;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.mail_icon
+{
+  float: right;
+  margin: 10px;
+  margin-right: 0px;
+  color: #CD3829;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*--------------------- 
+-----FLOAT-FIXING------
+---------------------*/
+
+@media (max-width: 401px)
+{
+  .content
+  {
+	letter-spacing: 1px;
+    font-size: 14px;
+	line-height: 28px;
+  }
+  
+  .solve
+  {
+	line-height: 16px;
+  }
+}
+
+.fix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.fix { display: inline-block; }
+* html .fix { height: 1%; }
+.fix { display: block; }
