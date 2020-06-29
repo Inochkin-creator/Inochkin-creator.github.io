@@ -1,0 +1,177 @@
+div
+{
+  color = black;
+}
+
+a
+{
+  text-decoration: none;
+  color: white;
+}
+
+/*--------------------- 
+--------HEADER---------
+---------------------*/
+
+.header
+{
+  background-image: url(img/header.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  height: 40%;
+}
+
+@media (max-width: 1024px) 
+{
+  .header
+  {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+  }
+}
+
+
+/*--------------------- 
+--------CENTER---------
+---------------------*/
+
+body
+{
+  background-image: linear-gradient(-45deg, #4F637B, #09205A, #151A24, #0C1118);
+}
+
+
+
+/*--------------------- 
+--------CONTENT--------
+---------------------*/
+
+.content
+{
+  min-height: 1000px;
+  width: 70%;
+  background-color: white;
+  
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+  box-sizing: border-box;
+  padding: 35px;
+  
+  letter-spacing: 2.05px;
+  line-height: 32px;
+  font-size: 22px;
+}
+
+.pr
+{
+  margin-left: 300px;
+  margin-top: -200px;
+}
+
+.pi
+{
+  margin-left: 50px;
+}
+
+.pong_rel_dwn
+{
+  margin-left: 45%;
+  background-color: green;
+  color: white;
+  font-size: 33px;
+}
+
+@media (max-width: 1200px) 
+{
+  .content
+  {
+	width: 95%; 
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	font-size: 19px;
+  }
+  
+  .pr
+  {
+	width: 50%;
+	height: 50%;
+  }
+}
+
+@media (max-width: 720px)
+{
+  .pr
+  {
+	width: 0px;
+  }
+}
+
+
+/*--------------------- 
+--------FOOTER---------
+---------------------*/
+
+.footer
+{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 25px;
+  width: 70%;
+  min-height: 100px;
+  background-color: #121721;
+  font-size: 26px;
+}
+
+@media (max-width: 1024px)
+{
+  .footer
+  {
+	width: 100%;
+	margin: 0%;
+  }
+}
+
+@media (max-width: 480px)
+{
+  .footer
+  {
+	font-size: 18px;
+  }  
+}
+
+.mail
+{
+  color: rgb(30, 30, 170);
+  float: right;
+  width: auto;
+  text-align: right;
+  margin: 10px;
+  padding: 5px;
+}
+
+
+/*--------------------- 
+-----FLOAT-FIXING------
+---------------------*/
+
+.fix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.fix { display: inline-block; }
+* html .fix { height: 1%; }
+.fix { display: block; }
