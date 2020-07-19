@@ -26,14 +26,14 @@ a
   height: 40%;
 }
 
-@media (max-width: 1024px) 
+@media (max-width: 1200px) 
 {
   .header
   {
-	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
   }
 }
 
@@ -55,7 +55,6 @@ body
 
 .content
 {
-  min-height: 1000px;
   width: 70%;
   background-color: white;
   
@@ -85,26 +84,27 @@ body
 
 .pong_rel_dwn
 {
-  margin-left: 45%;
+  margin-right: 10%;
+  margin-top: 18px;
+  padding: 10px;
   background-color: green;
   color: white;
-  font-size: 33px;
+  font-size: 39px;
 }
 
 @media (max-width: 1200px) 
 {
   .content
   {
-	width: 95%; 
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	font-size: 19px;
+    width: 95%; 
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 19px;
   }
   
   .pr
   {
-	width: 50%;
-	height: 50%;
+    width: 50%;
   }
 }
 
@@ -112,7 +112,14 @@ body
 {
   .pr
   {
-	width: 0px;
+    width: 0px;
+    height: 0px;
+  }
+
+  .p1_0
+  {
+    width: 0px;
+    height: 0px;
   }
 }
 
@@ -132,12 +139,12 @@ body
   font-size: 26px;
 }
 
-@media (max-width: 1024px)
+@media (max-width: 1200px)
 {
   .footer
   {
-	width: 100%;
-	margin: 0%;
+    width: 100%;
+    margin: 0%;
   }
 }
 
@@ -145,7 +152,7 @@ body
 {
   .footer
   {
-	font-size: 18px;
+	  font-size: 18px;
   }  
 }
 
