@@ -17,13 +17,23 @@
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
 
-.controls
-{
-    margin-left: 20%;
-    
-}
-
 html
 {
     background-color:lightslategray;
+}
+
+.controls
+{
+    margin-left: 20%;
+}
+
+.telega
+{
+    text-align: right;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
 }
