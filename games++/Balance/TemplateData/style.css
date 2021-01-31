@@ -1,5 +1,5 @@
 .webgl-content * {border: 0; margin: 0; padding: 0}
-.webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content {position: absolute; top: 45%; left: 40%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 .webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
@@ -22,6 +22,36 @@ html
     background-color:lightslategray;
 }
 
+img
+{
+    padding-left: 10%;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.img 
+{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: larger;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.logo
+{
+    text-align: center;
+    padding-right: 0px;
+    padding-bottom: 5%;
+}
+
+.rec
+{
+    background-color: gray;
+    margin-left: 79%;
+    margin-right: 1.5%;
+}
+
 .controls
 {
     margin-left: 20%;
@@ -36,4 +66,76 @@ a
 {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 1200px)
+{
+    img 
+    {
+        width: 100px;
+    }
+
+    .img
+    {
+        font-size: 10px;
+    }
+
+    .rec
+    {
+        margin-left: 85%;
+    }
+}
+
+@media (max-width: 960px)
+{
+    img 
+    {
+        width: 75px;
+    }
+
+    .img
+    {
+        font-size: 8px;
+    }
+
+    .rec
+    {
+        margin-left: 88%;
+    }
+}
+
+@media (max-width: 880px)
+{
+    img 
+    {
+        width: 50px;
+    }
+
+    .img
+    {
+        font-size: 6px;
+    }
+
+    .rec
+    {
+        margin-left: 90%;
+    }
+}
+
+@media (max-width: 830px)
+{
+    img 
+    {
+        width: 0;
+    }
+
+    .img
+    {
+        font-size: 0;
+    }
+
+    .rec
+    {
+        margin-left: 100%;
+    }
 }
