@@ -87,7 +87,7 @@ $("document").ready(function()
 		x1 = (Math.round((Math.sqrt(-D) / (2 * a)) * 1000000) / 1000000) + "i";
 	    x2 = "-" + ( (Math.round((Math.sqrt(-D) / (2 * a)) * 1000000) / 1000000) + "i");
 	  }
-	  alert("x1 = " + x1 + "\n" + "x2 = " + x2 + "\nСмотри главную страницу");
+	  alert("x1 = " + x1 + "\n" + "x2 = " + x2 + "\n");
 	}
 	else if (x1 != x2)
 	  {alert("x1 = " + x1 + "\n" + "x2 = " + x2);}
